@@ -76,6 +76,12 @@
       ],
       "priceRange": "$$$"
     }
+    /* ADDED: Mobile-specific fix for hero section */
+        @media (max-width: 768px) {
+            .hero-content {
+                padding-top: 120px; /* Added padding to account for header height on mobile */
+            }
+        }
     </script>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
